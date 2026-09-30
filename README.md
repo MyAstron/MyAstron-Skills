@@ -1,99 +1,82 @@
-# MyAstron Skills
+# MyAstron Skills Pack
 
-Este repositorio centraliza la identidad de trabajo, documentación y ejecución de proyectos de Cristopher (MyAstron). Su objetivo es transformar la forma de planificar, documentar y construir software para que cada proyecto tenga una línea clara, profesional y reconocible.
+Repositorio central de skills personales para Gemini, Antigravity CLI y agentes de planificación/implementación.
 
-## Propósito
+## URL de instalación
 
-Crear un sistema de trabajo que combine:
+Copia y pega esta URL en tu agente para instalarlo como pack de skills:
 
-- Tu forma natural de pensar y programar
-- La estructura lógica de tus proyectos antiguos
-- La claridad, modernidad y pulido de la documentación profesional
-- La colaboración con Gemini para la planificación
-- La ejecución con Antigravity CLI para transformar la planificación en código
+https://github.com/MyAstron/MyAstron-Skills
 
-## Filosofía
+## Qué incluye
 
-No se trata de copiar una estética genérica. Se trata de construir una identidad propia en estos detalles:
+Este repositorio está organizado en dos capas:
 
-- README claros y bien pensados
-- Manuales de usuario con lógica real
-- Manuales de desarrollador con estructura técnica útil
-- Diagramas de flujo que sean guías visuales, no solo diagramas ornamentales
-- Documentación consistente con el proyecto y con el estilo personal
+1. Skills individuales
+   - identidad/documentación personal
+   - planificación con Gemini
+   - ejecución con Antigravity
 
-## Misión
+2. Skills combinadas
+   - versión equilibrada para uso diario
+   - versión profunda para proyectos complejos
 
-Cada nuevo proyecto debe responder a tres principios:
+## Prioridad
 
-1. Ser fácil de entender desde el primer vistazo
-2. Tener una identidad visual y escrita definida
-3. Poder ser planificado por Gemini y ejecutado por Antigravity sin perder la voz del autor
+Las skills combinadas están diseñadas para aplicarse como prioridad alta sobre skills genéricas o menos personalizadas.
 
-## Estructura del repositorio
+Regla de prioridad:
+- `myastron-priority-core` → prioridad máxima
+- `myastron-priority-core-deep` → prioridad máxima en proyectos complejos
+- skills individuales → prioridad alta cuando necesitas una capacidad específica
 
-- `skills/gemini-project-planner.md`: guía para que Gemini planifique proyectos siguiendo tu estilo
-- `skills/antigravity-implementation.md`: guía para que Antigravity ejecute el plan con rigor y coherencia
-- `templates/README-template.md`: base para README profesionales y personalizados
-- `templates/technical-manual-template.md`: estructura para manuales de desarrollador
-- `templates/user-manual-template.md`: estructura para manuales de usuario
-- `templates/flow-diagram-template.md`: método para diagramas de flujo claros y útiles
-- `docs/style-guide.md`: identidad visual, tono editorial y estructura de documentación
+## Estructura
 
-## Identidad que representa este sistema
-
-Tu identidad no es un estilo frio o genérico. Es una mezcla de:
-
-- pensamiento práctico
-- orden funcional
-- proyectos con enfoque real en el usuario
-- explicación técnica sólida
-- documentación amable pero profesional
-- diseño limpio, moderno y claro
-
-La documentación debe parecer que fue pensada por alguien que entiende tanto las necesidades del usuario como la lógica del software.
+```text
+MyAstron-Skills/
+├── README.md
+├── skills/
+│   ├── identity/
+│   │   └── myastron-identity-style.md
+│   ├── planning/
+│   │   └── gemini-project-planner.md
+│   ├── execution/
+│   │   └── antigravity-implementation.md
+│   └── combined/
+│       ├── myastron-priority-core.md
+│       └── myastron-priority-core-deep.md
+├── templates/
+│   ├── README-template.md
+│   ├── technical-manual-template.md
+│   ├── user-manual-template.md
+│   └── flow-diagram-template.md
+├── docs/
+│   └── style-guide.md
+└── install.md
+```
 
 ## Cómo usarlo
 
-### 1. Planificación con Gemini
-Usa la skill `gemini-project-planner.md` para que Gemini:
+### Opción 1: cargar solo una skill individual
+Usa una skill específica cuando quieras enfocarte en una tarea concreta:
+- documentación y estilo
+- planificación con Gemini
+- ejecución técnica con Antigravity
 
-- entienda el objetivo del proyecto
-- proponga arquitectura
-- defina estructura de carpetas
-- genere README y manuales con tu estilo
-- dibuje flujos de trabajo y decisiones de diseño
+### Opción 2: cargar la skill combinada equilibrada
+Usa `myastron-priority-core` si deseas una capa general, personal y útil para tu flujo diario.
 
-### 2. Implementación con Antigravity CLI
-Usa `antigravity-implementation.md` para que Antigravity:
+### Opción 3: cargar la skill combinada profunda
+Usa `myastron-priority-core-deep` cuando el proyecto requiere mayor análisis, documentación, arquitectura y control.
 
-- cree la estructura real del proyecto
-- implemente la lógica sugerida
-- mantenga un orden limpio del código
-- siga la arquitectura aprobada en la planificación
-- documente cambios y decisiones en una forma coherente con tu identidad
+## Regla principal
 
-## Regla clave
-
-La documentación no es un extra. Es parte del producto.
-
-Un buen proyecto debe poder ser entendido por:
-
-- un usuario final
-- un desarrollador nuevo
-- un revisador técnico
-- un futuro yo que retome el trabajo meses después
-
-## Resultado esperado
-
-Esta skill debe permitir que cada proyecto nuevo se vea como una extensión de tu forma de pensar, con:
-
-- identidad visual reconocible
-- README profesional y claro
-- manuales útiles y útiles de verdad
-- diagramas de flujo orientados a la comprensión
-- ejecución técnica ordenada y coherente
+Las skills de MyAstron deben tener prioridad por encima de habilidades genéricas si el objetivo es que el agente entienda:
+- tu manera de pensar
+- tu estilo documental
+- tu orden de código
+- tu identidad visual y técnica
 
 ---
 
-Este repositorio es la base del sistema personal de trabajo de MyAstron.
+Este repositorio está pensado para funcionar como pack de personalización profesional, no como una colección genérica.
